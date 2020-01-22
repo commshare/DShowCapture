@@ -1,0 +1,6 @@
+powershell -Command "(gc live\win32config) -replace '!include    <ntwin32.mak>', '#!include    <ntwin32.mak>' | Out-File live\win32config"
+powershell -Command "(gc live\win32config) -replace 'c:\\Program Files\\DevStudio\\Vc', '%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428' | Out-File live\win32config"
+powershell -Command "(gc live\win32config) -replace '\(TOOLS32\)\\bin\\cl', '(TOOLS32)\bin\HostX86\x64\cl' | Out-File live\win32config"
+powershell -Command "(gc live\win32config) -replace 'LINK =         \$\(link\) -out:', 'LINK = link ws2_32.lib /out:' | Out-File live\win32config"
+powershell -Command "(gc live\win32config) -replace 'LIBRARY_LINK =     lib -out:', 'LIBRARY_LINK = lib /out:' | Out-File live\win32config"
+powershell -Command "(gc live\win32config) -replace 'msvcirt.lib', 'msvcrt.lib' | Out-File live\win32config"

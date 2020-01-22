@@ -1,5 +1,6 @@
-#include "Mp4Record.h"
 #include "stdafx.h"
+#include "Mp4Record.h"
+
 Mp4Record::Mp4Record()
 {
 	m_bStart = false;

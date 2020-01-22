@@ -317,10 +317,13 @@ enum {
 #define HAVE_STRUCT_TIMESPEC
 #if !defined(_TIMESPEC_DEFINED)
 #define _TIMESPEC_DEFINED
+//重复定义
+#if 0 //1>c:\program files (x86)\windows kits\10\include\10.0.19025.0\ucrt\time.h(43): note: 参见“timespec”的声明
 struct timespec {
         time_t tv_sec;
         long tv_nsec;
 };
+#endif
 #endif /* _TIMESPEC_DEFINED */
 #endif /* HAVE_STRUCT_TIMESPEC */
 

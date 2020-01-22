@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "SimpleRTPSink.hh"
 #include "AACLiveServerMediaSubsession.h"
 #include "AACLiveFramedSource.h"

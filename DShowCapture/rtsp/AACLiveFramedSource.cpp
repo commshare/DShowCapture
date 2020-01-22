@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "AACLiveFramedSource.h"
 
 #include <GroupsockHelper.hh> // for "gettimeofday()"

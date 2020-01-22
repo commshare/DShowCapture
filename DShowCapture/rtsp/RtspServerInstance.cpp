@@ -1,3 +1,5 @@
+
+#include "stdafx.h"
 #include  <afx.h>  
 #include "RtspServerInstance.h"
 #include "H264LiveServerMediaSubsession.h"

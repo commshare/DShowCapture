@@ -1,0 +1,11 @@
+DShowCapture\Release\
+.vs/
+.git\
+*.exe
+DShowCapture\rtsp\vs2013\
+DShowCapture\rtsp\vs2017live555\.vs\
+DShowCapture\rtsp\vs2017live555\Debug\
+DShowCapture\rtsp\vs2017live555\Release\
+DShowCapture\rtsp\vs2017live555\Win32\
+DShowCapture\rtsp\vs2017live555\x64\
+.vs/

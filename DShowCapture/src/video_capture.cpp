@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "video_capture.h"
 #include <afx.h>  
 

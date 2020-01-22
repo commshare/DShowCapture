@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "aac_codec.h"
 #include "afx.h"
 

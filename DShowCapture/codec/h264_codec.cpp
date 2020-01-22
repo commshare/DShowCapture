@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "h264_codec.h"
 #include "afx.h"
 
